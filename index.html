@@ -17,7 +17,7 @@
             box-shadow: 1px 3px 8px 1px rgba(0,0, 0,0, 0,0, 0,1);
             border-radius: 5px;
             overflow: hidden;
-            margin-top: 500px;
+            margin-top: 200px;
 
 
         }
@@ -29,7 +29,7 @@
             display: flex;
             background-color: #9BEC00;
             justify-content: space-around;
-            padding: 20px;
+
 
         }
         .header-title{
@@ -44,6 +44,69 @@
             font-weight: 500;
             margin-top: 10px;
             margin-bottom: 15px;
+        }
+        .column1{
+          
+          
+            background-color: #9dff00;
+            width: 50%;
+            color: #035e03;
+            padding: 20px;
+
+        }
+        .column1-header-title{
+            text-align: center;
+            margin-bottom: 15px;
+            
+            font-weight: 700;
+  
+        font-size: 18px;
+   
+        }
+      
+        .button{
+            width: 100%;
+            padding: 15px 32px;
+            margin-top: 15px;
+            font-size: 16px;
+            color:#2a6802;
+            border-radius: 5px;
+            font-weight: 1000;
+            border: none;
+            cursor: pointer;
+
+        }
+        .button:hover{
+            background-color: rgb(218, 216, 216);
+
+        }
+        .price{
+            font-size: 26px;
+            font-weight: 700;
+        }
+        .month{
+            font-family: italic ;
+            font-size: 15px;
+        }
+        .column2{
+
+            background-color: #00ff80;
+            width: 50%;
+            padding: 20px;
+            
+        }
+        .column2-header-title{
+
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .column2-subtitle{
+         
+            width: 300px;
+            margin-left: 42px;
+
+
+            margin-top: 18px;
         }
       
 
@@ -65,11 +128,54 @@
             
         </div>
         <div class="flex-container">
-            <div>
-                Coluna 1
+            <div class="column1">
+                <div class="column1-header-title">
+                    Assinatura mensal : 
+                </div>
+                <div class="column1-subtitle">
+                    <span class="price">R$ 99,99</span> 
+                    <span class="month">por mês</span>
+                    
+                </div>
+                <div>
+                    Cancele a qualquer momento
+                </div>
+                <div>
+                    <button class="button">Assinar!</button>
+                </div>
             </div>
-            <div>
-                Coluna 2
+
+            <div class="column2">
+                <div class="column2-header-title">
+                    Você terá acesso a: 
+                </div>
+                <div class="column2-subtitle">
+                    <div>
+                        * Projetos exclusivos
+                        
+
+                    </div>
+                    <div>
+                        * Tutorias 
+                        
+                    </div>
+                    <div>
+                        * Lives semanais
+                       
+                    </div>
+                    <div>
+                        * Material didático especializado 
+                        
+                    </div>
+                    <div>
+                        * Fórum 
+                        
+                    </div>
+                    <div>
+                        * Oferta de empregos
+                    </div>
+
+                </div>
 
             </div>
         </div>
