@@ -58,7 +58,7 @@ font-size: 1.1rem;
 
 }
 
-.button{
+button{
     width: 100%;
     padding: 0.9rem 2rem;
     margin-top: 0.9rem;
@@ -70,10 +70,11 @@ font-size: 1.1rem;
     cursor: pointer;
 
 }
-.button:hover{
-    background-color: rgb(218, 216, 216);
+button:hover{
+    background-color: rgb(152, 255, 170);
 
 }
+
 .price{
     font-size: 1.6rem;
     font-weight: 700;
@@ -93,11 +94,47 @@ font-size: 1.1rem;
     padding: 1.2rem;
     
 }
+.column3{
+    background-color: #00ff80;
+    width: 100%;
+    padding: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+
+}
 .column2-header-title{
 
     font-size: 1.2rem;
     font-weight: 700;
 }
+.button3{
+    text-align: center;
+    margin-top: 1.2rem;
+
+}
+.input1{
+    height: 2.5rem;
+    width: 99.1%;
+
+    border-radius: 0.3rem;
+    border: none;
+
+    margin-top: 0.6rem;
+
+}
+.input1:focus{
+    outline: none;
+    box-shadow: 0 0 0.6rem #3d4641;
+
+}
+a{
+    color: #3d4641;
+    font-size: 0.8rem;
+}
+
+
 @media screen and (max-width:620px) {
     html{
         font-size: 10px;
@@ -105,14 +142,16 @@ font-size: 1.1rem;
     .flex-container{
         flex-direction: column;
     }
-    .column1 , .column2{
+    .column1 , .column2, .column3{
         width: 100%;
         box-sizing: border-box;
     }
     .container{
         width: 95%;
     }
-    
+    .header{
+        padding: 0.6rem;
+    }
     
 }
 
